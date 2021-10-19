@@ -41,7 +41,7 @@ class LoginViewModelTests: XCTestCase {
         XCTWaiter.wait(for: [exp], timeout: 5.0)
          
         //Given
-        let expected: ListViewModelState = .loading
+        let expected: ListViewModelState = .error
         
         //Output
         XCTAssertEqual(expected, subject.state)
