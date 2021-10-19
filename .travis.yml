@@ -3,4 +3,4 @@ language: swift
 os: osx
 xcode_project: CombineDemo.xcodeproj
 xcode_scheme: CombineDemo
-xcode_destination: platform=iOS Simulator,OS=14.5,name=iPhone 14.5
+xcode_destination: platform=iOS Simulator,OS=14.5,name=iPhone 12
